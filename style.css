@@ -1,0 +1,329 @@
+@import url("https://fonts.google.com/share?selection.family=Roboto+Condensed:ital,wght@0,100..900;1,100..900|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
+
+*{
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 0px;
+    height: 110px;
+    width: 100%;
+    z-index: 1000;
+    margin-top: -90px;
+    margin-left: -10px;
+    
+}
+nav{
+    
+    flex: 1;
+    height: 64px;
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 135px;
+    padding-left: 148px;
+    padding-bottom: 0px;
+    font-family: Roboto;
+
+        
+    }
+.nav-search{
+    
+    flex: 0.85;
+    display: flex;
+    align-items: center;
+    background:#F7F9FA;
+    color: rgb(7, 7, 7);
+    border-radius: 15px;
+    margin-left: 20px;
+    height: 40px;
+    font-family: Roboto;
+    margin-top: 0px;
+    
+
+}
+.ad{
+    padding-top: 100px;
+    margin-top: 80px;
+    position: relative;
+    top: 30px;
+    z-index: 0;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+    background-color: #F7F9FA;
+    padding-right: 20px;
+    font-family: Roboto;
+    font-size: medium;
+    font-weight: 550;
+    
+}
+.nav-login{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: rgb(0, 144, 217);
+    font-family: Roboto;
+}
+.nav-getapp{
+    display: flex;
+    align-items: center;
+    background: rgb(0, 144, 217);;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20pc;
+    height: 27px;
+    font-family: Roboto;
+
+}
+.nav-bell{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    
+
+}
+.nav-love{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+
+}
+.nav-cart{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding-right: 20px;
+    border-radius: 20px;
+
+}
+nav2{
+    height: 68px;
+    display: flex;
+    width: 100%;
+    background-color:  #fff;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 135px;
+    padding-left: 145px;
+    padding-bottom: -10px;
+    border-bottom: 1px solid #3f5663 ;
+   padding-top: 10px;
+    
+
+}
+
+
+
+.popular{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;
+   
+    
+
+}
+.deals{padding-top: 0px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;
+    }
+.recently{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;
+font-weight: 540;
+}
+
+.fashion{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.baby{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.pets{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.gadegets{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.tools{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.health{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.more{padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;}
+.ad{
+    padding-top: 29px;
+    padding-left: 29px;
+    padding-bottom: 19px;
+    padding-right: 29px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: Roboto;
+    color: #3f5663;
+}
+table{
+    padding-top: 20px;
+    width:100%;
+}
+.boxrow0{
+    margin-left: 30px;
+    margin-right: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 0;
+}
+.boxrow{
+    margin-left: 30px;
+    margin-right: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0px;
+    padding-top: 10px;
+    
+}
+.boxrow2{
+    margin-left: 30px;
+    margin-right: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0px;
+    margin-top: 20px;
+}
+
+.boxcol{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 0%;
+    max-width: 260px;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.img1{
+    border-radius: 10px;
+    width: 260px;
+}
+th{
+    justify-content: center;
+}
+td{
+    display: flex;
+    background-color: #fff;
+    column-width: 20px;
+    flex-direction: row;
+    align-items: center;
+    max-height: 20px;
+    max-width: 260px;
+    padding-left: 12px;
+    
+}
+.shopby{
+    padding-left: 20px;
+}
+.center{
+    padding-top: 0px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 10px;
+}
+.round{
+
+    padding-top: 0px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 0;
+    margin-top: 0px;
+    
+    
+}
+.boxrow1{
+
+    margin-left: 90px;
+    margin-right: 90px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0px;
+    margin-top: 0px;
+    
+}
+
+.boxcol1{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 0%;
+    max-width: 260px;
+    min-height: 180px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 0px;
+
+
+
+
+
+
+    
+}
